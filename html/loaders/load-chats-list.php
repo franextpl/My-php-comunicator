@@ -21,7 +21,7 @@ else{
         echo "<div class=chatNameHoldBox>";
         echo "<p4 style='color:white;' >" . htmlspecialchars($row["lp"]) . "</p4>"."<br>";
         echo "<p5>" . htmlspecialchars($row["chat_name"]) . "</p5>";
-        echo "<form action='/html/strona.php' method='post'>"."<input type='hidden' id='lp-war' name='lp-war' value=".$row["lp"].">"."<input type='hidden' id='name-war' name='name-war' value=".$row["chat_name"].">" . "<input type='submit' name='button1'  class='button' value='przejdz do czatu' />" .   "</form>";
+        echo "<form action='../strona.php' method='post'>"."<input type='hidden' id='lp-war' name='lp-war' value=".$row["lp"].">"."<input type='hidden' id='name-war' name='name-war' value=".$row["chat_name"].">" . "<input type='submit' name='button1'  class='button' value='przejdz do czatu' />" .   "</form>";
         echo "</div>";
     }
 }
