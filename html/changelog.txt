@@ -1,0 +1,5 @@
+Changelog v1.0.1
+-Added the ability to remove entire chats.
+-Added the ability to clear enitire chats.
+-Added the ability to remove only ceartain messages from chats.
+-Fixed the bug which caused the chat name not to apear fully while browsing a chat.
