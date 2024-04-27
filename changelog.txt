@@ -1,0 +1,6 @@
+Changelog v1.0.2
+-fixed the bug which caused the website not to work while not placed in the http server root
+-changed the file names not to comtain the string 'chat'
+-added login to the administrative website
+-added checking the size of a uploaded file 
+-added function which causes messages to scroll to the bottom when sending a message
