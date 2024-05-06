@@ -19,7 +19,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>super-chat lista czatów</title>
-    <link rel="stylesheet" href="./styles/style-chaty.css">
+    <link rel="stylesheet" href="./styles/style-czaty.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script>
 
