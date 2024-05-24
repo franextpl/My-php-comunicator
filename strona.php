@@ -200,7 +200,8 @@ window.addEventListener("beforeunload", () => {
             console.log(messagecont);
             console.log((messagecont.search(/(\w+\.\w{2,3}(?!(\.)|(\w)))|(\w+\.\w+\.\w{2,3})/)));
             console.log();
-            let fstindex = (urlrer(messagecont))[0];
+            if ((messagecont.search(/(\w+\.\w{2,3}(?!(\.)|(\w)))|(\w+\.\w+\.\w{2,3})/))>=0){
+                let fstindex = (urlrer(messagecont))[0];
             let endindex = (urlrer(messagecont))[1];
             let linktoweb = (urlrer(messagecont))[2];
 
@@ -224,6 +225,8 @@ window.addEventListener("beforeunload", () => {
                 partofmess = partofmess.slice(endindex1+1);
                 console.log('this is message delta:'+msgdelta);
             console.log(partofmess);
+            }
+
             
             } 
             
